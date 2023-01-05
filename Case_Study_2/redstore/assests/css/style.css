@@ -684,3 +684,24 @@ td:last-child{
 th:last-child{
   text-align: right;
 }
+#feature__product select{
+  position: absolute;
+  right: 20px;
+  transform: translateY(-50%);
+  max-width: 200px;
+  border: 1px solid var(--primary-color);
+  outline: none;
+  padding:3px;
+  
+
+}
+.page-btn{
+  margin-bottom: 30px;
+}
+.page-btn button{
+  background: var(--primary-color);
+  border: none;
+  padding: 0 15px;
+  
+  
+}
